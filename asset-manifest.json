@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/iprophone-website/static/css/main.3b37f93e.css",
-    "main.js": "/iprophone-website/static/js/main.35ea4fa4.js",
+    "main.css": "/iprophone-website/static/css/main.5ec4dfa1.css",
+    "main.js": "/iprophone-website/static/js/main.8c35c505.js",
     "static/js/453.e9d6857a.chunk.js": "/iprophone-website/static/js/453.e9d6857a.chunk.js",
     "index.html": "/iprophone-website/index.html",
-    "main.3b37f93e.css.map": "/iprophone-website/static/css/main.3b37f93e.css.map",
-    "main.35ea4fa4.js.map": "/iprophone-website/static/js/main.35ea4fa4.js.map",
+    "main.5ec4dfa1.css.map": "/iprophone-website/static/css/main.5ec4dfa1.css.map",
+    "main.8c35c505.js.map": "/iprophone-website/static/js/main.8c35c505.js.map",
     "453.e9d6857a.chunk.js.map": "/iprophone-website/static/js/453.e9d6857a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b37f93e.css",
-    "static/js/main.35ea4fa4.js"
+    "static/css/main.5ec4dfa1.css",
+    "static/js/main.8c35c505.js"
   ]
 }
