@@ -1,0 +1,263 @@
+[
+    {
+      "brand": "Apple",
+      "modelSeries": "iPhone",
+      "model": "15 Pro Max",
+      "colors": [
+        "Natural Titanium",
+        "Blue Titanium",
+        "White Titanium",
+        "Black Titanium"
+      ],
+      "repairs": {
+        "Front Screen": 499,
+        "Battery": 199,
+        "Charging Port": 149,
+        "Back Screen": 299,
+        "Ear Speaker": 129,
+        "Camera": 199,
+        "Others": 99
+      }
+    },
+    {
+      "brand": "Apple",
+      "modelSeries": "iPhone",
+      "model": "15 Pro",
+      "colors": [
+        "Black",
+        "White",
+        "Blue",
+        "Natural"
+      ],
+      "repairs": {
+        "Front Screen": 479,
+        "Battery": 189,
+        "Charging Port": 139,
+        "Back Screen": 289,
+        "Ear Speaker": 119,
+        "Camera": 189,
+        "Others": 89
+      }
+    },
+    {
+      "brand": "Apple",
+      "modelSeries": "iPhone",
+      "model": "15 Plus",
+      "colors": [],
+      "repairs": {
+        "Front Screen": 459,
+        "Battery": 179,
+        "Charging Port": 129,
+        "Back Screen": 279,
+        "Ear Speaker": 109,
+        "Camera": 179,
+        "Others": 79
+      }
+    },
+    {
+      "brand": "Apple",
+      "modelSeries": "iPhone",
+      "model": "15",
+      "colors": [
+        "Black",
+        "Pink",
+        "Blue",
+        "Green",
+        "Yellow"
+      ],
+      "repairs": {
+        "Front Screen": 439,
+        "Battery": 169,
+        "Charging Port": 119,
+        "Back Screen": 269,
+        "Ear Speaker": 99,
+        "Camera": 169,
+        "Others": 69
+      }
+    },
+    {
+      "brand": "Apple",
+      "modelSeries": "iPhone",
+      "model": "14 Pro Max",
+      "colors": [],
+      "repairs": {
+        "Front Screen": 419,
+        "Battery": 159,
+        "Charging Port": 109,
+        "Back Screen": 259,
+        "Ear Speaker": 89,
+        "Camera": 159,
+        "Others": 59
+      }
+    },
+    {
+      "brand": "Apple",
+      "modelSeries": "iPhone",
+      "model": "14 Pro",
+      "colors": [],
+      "repairs": {
+        "Front Screen": 399,
+        "Battery": 149,
+        "Charging Port": 99,
+        "Back Screen": 249,
+        "Ear Speaker": 79,
+        "Camera": 149,
+        "Others": 49
+      }
+    },
+    {
+      "brand": "Apple",
+      "modelSeries": "iPhone",
+      "model": "14 Plus",
+      "colors": [],
+      "repairs": {
+        "Front Screen": 379,
+        "Battery": 139,
+        "Charging Port": 89,
+        "Back Screen": 239,
+        "Ear Speaker": 69,
+        "Camera": 139,
+        "Others": 39
+      }
+    },
+    {
+      "brand": "Apple",
+      "modelSeries": "iPhone",
+      "model": "14",
+      "colors": [],
+      "repairs": {
+        "Front Screen": 359,
+        "Battery": 129,
+        "Charging Port": 79,
+        "Back Screen": 229,
+        "Ear Speaker": 59,
+        "Camera": 129,
+        "Others": 29
+      }
+    },
+    {
+      "brand": "Samsung",
+      "modelSeries": "Galaxy",
+      "model": "S23 Ultra",
+      "colors": [
+        "Black",
+        "Cream",
+        "Lavender",
+        "Green"
+      ],
+      "repairs": {
+        "Front Screen": 499,
+        "Battery": 199,
+        "Charging Port": 149,
+        "Back Screen": 299,
+        "Ear Speaker": 129,
+        "Camera": 199,
+        "Others": 99
+      }
+    },
+    {
+      "brand": "Samsung",
+      "modelSeries": "Galaxy",
+      "model": "S23+",
+      "colors": [],
+      "repairs": {
+        "Front Screen": 479,
+        "Battery": 189,
+        "Charging Port": 139,
+        "Back Screen": 289,
+        "Ear Speaker": 119,
+        "Camera": 189,
+        "Others": 89
+      }
+    },
+    {
+      "brand": "Samsung",
+      "modelSeries": "Galaxy",
+      "model": "S23",
+      "colors": [],
+      "repairs": {
+        "Front Screen": 459,
+        "Battery": 179,
+        "Charging Port": 129,
+        "Back Screen": 279,
+        "Ear Speaker": 109,
+        "Camera": 179,
+        "Others": 79
+      }
+    },
+    {
+      "brand": "Samsung",
+      "modelSeries": "Galaxy",
+      "model": "S23 FE",
+      "colors": [],
+      "repairs": {
+        "Front Screen": 439,
+        "Battery": 169,
+        "Charging Port": 119,
+        "Back Screen": 269,
+        "Ear Speaker": 99,
+        "Camera": 169,
+        "Others": 69
+      }
+    },
+    {
+      "brand": "Samsung",
+      "modelSeries": "Galaxy",
+      "model": "S22 Ultra",
+      "colors": [],
+      "repairs": {
+        "Front Screen": 419,
+        "Battery": 159,
+        "Charging Port": 109,
+        "Back Screen": 259,
+        "Ear Speaker": 89,
+        "Camera": 159,
+        "Others": 59
+      }
+    },
+    {
+      "brand": "Samsung",
+      "modelSeries": "Galaxy",
+      "model": "S22+",
+      "colors": [],
+      "repairs": {
+        "Front Screen": 399,
+        "Battery": 149,
+        "Charging Port": 99,
+        "Back Screen": 249,
+        "Ear Speaker": 79,
+        "Camera": 149,
+        "Others": 49
+      }
+    },
+    {
+      "brand": "Samsung",
+      "modelSeries": "Galaxy",
+      "model": "S22",
+      "colors": [],
+      "repairs": {
+        "Front Screen": 379,
+        "Battery": 139,
+        "Charging Port": 89,
+        "Back Screen": 239,
+        "Ear Speaker": 69,
+        "Camera": 139,
+        "Others": 39
+      }
+    },
+    {
+      "brand": "Samsung",
+      "modelSeries": "Galaxy",
+      "model": "S21 Ultra",
+      "colors": [],
+      "repairs": {
+        "Front Screen": 359,
+        "Battery": 129,
+        "Charging Port": 79,
+        "Back Screen": 229,
+        "Ear Speaker": 59,
+        "Camera": 129,
+        "Others": 29
+      }
+    }
+  ]

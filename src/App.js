@@ -28,6 +28,26 @@ import {
 } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import HeroZoomImage from './HeroZoomImage';
+import FloatingContactButton from './FloatingContactButton';
+import BackToTopButton from "./BackToTopButton";
+import RepairInquiryForm from "./components/RepairInquiryForm";
+import ContactForm from "./components/ContactForm";
+import ServiceDetails from "./components/ServiceDetails";
+
+const Layout = () => {
+  const location = useLocation();
+  const isHome = location.pathname === "/";
+
+  return (
+    <>
+      {isHome && <HeroZoomImage />} {/* 只在首頁顯示 Hero 圖 */}
+      {/* 這裡放你的內容區塊，例如 Nav、Banner、Services、Footer 等 */}
+    </>
+  );
+};
+
 const App = () => {
   return (
     <>
@@ -47,13 +67,21 @@ const App = () => {
         </Container>
       </Navbar>
 
+
+      <BrowserRouter>
+      <Routes>
+        <Route path="*" element={<Layout />} />
+      </Routes>
+    </BrowserRouter>
+
       {/* Banner */}
+      {/*
       <Carousel>
         <Carousel.Item>
           <img
             className="d-block w-100"
             style={{ height: "400px", objectFit: "cover" }}
-            src="/images/banner1.jpg"
+            src="/iprophone-website/images/banner1.jpg"
             alt="Phone Accessories"
           />
           <Carousel.Caption>
@@ -65,7 +93,7 @@ const App = () => {
           <img
             className="d-block w-100"
             style={{ height: "400px", objectFit: "cover" }}
-            src="/images/banner2.jpg"
+            src="/iprophone-website/images/banner2.jpg"
             alt="Repair Services"
           />
           <Carousel.Caption>
@@ -74,6 +102,8 @@ const App = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      */}
+
 
       {/* About */}
       <Container className="my-5" id="about">
@@ -84,127 +114,9 @@ const App = () => {
       </Container>
 
       {/* Services */}
-      <Container className="my-5" id="services">
-        <h2 className="text-center mb-4">Our Services</h2>
-        <Row>
-          {/* Repair Category */}
-          <Col md={3} className="mb-4">
-            <Card className="text-center p-3">
-              <FaTools size={40} className="mx-auto mb-2" />
-              <Card.Body>
-                <Card.Title>Screen & Battery Repair</Card.Title>
-                <Card.Text>Fix broken screens and replace old batteries.</Card.Text>
-                <Button variant="primary">Learn More</Button>
-              </Card.Body>
-            </Card>
-          </Col>
 
-          {/* Accessories */}
-          <Col md={3} className="mb-4">
-            <Card className="text-center p-3">
-              <FaShoppingBag size={40} className="mx-auto mb-2" />
-              <Card.Body>
-                <Card.Title>Phone Accessories</Card.Title>
-                <Card.Text>Cases, screen protectors, chargers & more.</Card.Text>
-                <Button variant="primary">Learn More</Button>
-              </Card.Body>
-            </Card>
-          </Col>
+      <ServiceDetails />
 
-          {/* Data Backup */}
-          <Col md={3} className="mb-4">
-            <Card className="text-center p-3">
-              <FaDatabase size={40} className="mx-auto mb-2" />
-              <Card.Body>
-                <Card.Title>Data Backup & Transfer</Card.Title>
-                <Card.Text>Securely move or back up your phone data.</Card.Text>
-                <Button variant="primary">Learn More</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          {/* Damage Report */}
-          <Col md={3} className="mb-4">
-            <Card className="text-center p-3">
-              <FaPhone size={40} className="mx-auto mb-2" />
-              <Card.Body>
-                <Card.Title>Damage Report</Card.Title>
-                <Card.Text>We help provide reports for insurance claims.</Card.Text>
-                <Button variant="primary">Learn More</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
-
-      {/* Service Details Section */}
-      <Container className="my-5">
-        <h2 className="text-center mb-4">Service Details</h2>
-        <Row>
-          <Col md={6} className="mb-4">
-            <h4>Screen & Battery Repair</h4>
-            <img
-              src="/images/screen-repair.jpg"
-              alt="Screen Repair"
-              className="w-100 mb-3"
-              style={{ height: "250px", objectFit: "cover" }}
-            />
-            <p>
-              We offer professional screen repair services for all types of
-              phones. Whether it's a cracked screen or a malfunctioning battery,
-              our experts will have your phone working like new again in no time.
-              We use high-quality parts and provide a warranty for peace of mind.
-            </p>
-          </Col>
-          <Col md={6} className="mb-4">
-            <h4>Phone Accessories</h4>
-            <img
-              src="/images/accessories.jpg"
-              alt="Phone Accessories"
-              className="w-100 mb-3"
-              style={{ height: "250px", objectFit: "cover" }}
-            />
-            <p>
-              We offer a wide range of phone accessories, from stylish phone
-              cases and screen protectors to chargers and more. Our accessories
-              are designed to keep your phone safe and stylish, with a variety of
-              options to choose from for all phone models.
-            </p>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={6} className="mb-4">
-            <h4>Data Backup & Transfer</h4>
-            <img
-              src="/images/data-backup.jpg"
-              alt="Data Backup"
-              className="w-100 mb-3"
-              style={{ height: "250px", objectFit: "cover" }}
-            />
-            <p>
-              Protect your important data with our backup and transfer services.
-              Whether you need to move your photos, contacts, or app data, our
-              secure services will ensure that all your information is safely
-              transferred to a new device or backed up to cloud storage.
-            </p>
-          </Col>
-          <Col md={6} className="mb-4">
-            <h4>Damage Report</h4>
-            <img
-              src="/images/damage-report.jpg"
-              alt="Damage Report"
-              className="w-100 mb-3"
-              style={{ height: "250px", objectFit: "cover" }}
-            />
-            <p>
-              If your phone is damaged and you're filing an insurance claim, we
-              can provide you with a detailed damage report. This report will
-              help ensure that your claim is processed quickly and accurately, so
-              you can get the compensation you deserve.
-            </p>
-          </Col>
-        </Row>
-      </Container>
 
       {/* Locations */}
       <Container className="my-5" id="locations">
@@ -249,30 +161,16 @@ const App = () => {
         </Row>
       </Container>
 
-      {/* Contact Us */}
-      <Container className="my-5" id="contact">
-        <h2 className="text-center mb-4">Contact Us</h2>
-        <Form className="mx-auto" style={{ maxWidth: "600px" }}>
-          <Form.Group className="mb-3" controlId="formName">
-            <Form.Label>Your Name</Form.Label>
-            <Form.Control type="text" placeholder="Enter name" />
-          </Form.Group>
-
-          <Form.Group className="mb-3" controlId="formEmail">
-            <Form.Label>Email Address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" />
-          </Form.Group>
-
-          <Form.Group className="mb-3" controlId="formMessage">
-            <Form.Label>Your Message</Form.Label>
-            <Form.Control as="textarea" rows={3} placeholder="Write a message..." />
-          </Form.Group>
-
-          <Button variant="primary" type="submit">
-            Send Message
-          </Button>
-        </Form>
+      {/* Contact Us & Repair Query Form*/}
+      <Container id="contact">
+        <ContactForm />
       </Container>
+
+      <>
+      {/* HeroVideoScroll 其他內容 */}
+      <FloatingContactButton />
+    </>
+      <BackToTopButton />
 
       {/* Footer */}
       <footer className="bg-primary text-white text-center p-3">
