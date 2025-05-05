@@ -20,7 +20,7 @@ const HeroZoomImage = () => {
   return (
     <div className="hero-container">
       <img
-        src="/iprophone-website/images/hero.jpg"
+        src="/images/hero.jpg"
         alt="Hero Zoom"
         className="hero-image"
         style={{

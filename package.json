@@ -1,6 +1,6 @@
 {
   "name": "iprophone",
-  "homepage": "https://nnra.github.io/iprophone-website",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

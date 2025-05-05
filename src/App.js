@@ -36,6 +36,8 @@ import RepairInquiryForm from "./components/RepairInquiryForm";
 import ContactForm from "./components/ContactForm";
 import ServiceDetails from "./components/ServiceDetails";
 
+
+
 const Layout = () => {
   const location = useLocation();
   const isHome = location.pathname === "/";
@@ -47,6 +49,9 @@ const Layout = () => {
     </>
   );
 };
+
+<HeroZoomImage />
+
 
 const App = () => {
   return (
